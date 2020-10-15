@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94FA5D7608D2F72115E0D973 /* Pods_C2_HomeWork_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5F03C49069BFFE2C74E6F7 /* Pods_C2_HomeWork_9.framework */; };
+		C17A5753253654E9000121AD /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A5752253654E9000121AD /* Animation.swift */; };
+		C17A57572537AB85000121AD /* Extention + Aimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A57562537AB85000121AD /* Extention + Aimation.swift */; };
+		C17A57592537ABA6000121AD /* Extention + ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A57582537ABA6000121AD /* Extention + ViewController.swift */; };
 		C1CC09552535E0AB0014DA27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC09542535E0AB0014DA27 /* AppDelegate.swift */; };
 		C1CC09572535E0AB0014DA27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC09562535E0AB0014DA27 /* ViewController.swift */; };
 		C1CC095A2535E0AB0014DA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CC09582535E0AB0014DA27 /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B08B2259F6BCDFED16AD1F9 /* Pods-C2 HomeWork 9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C2 HomeWork 9.release.xcconfig"; path = "Target Support Files/Pods-C2 HomeWork 9/Pods-C2 HomeWork 9.release.xcconfig"; sourceTree = "<group>"; };
+		5102D1262BEF8AA481A6F6B8 /* Pods-C2 HomeWork 9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C2 HomeWork 9.debug.xcconfig"; path = "Target Support Files/Pods-C2 HomeWork 9/Pods-C2 HomeWork 9.debug.xcconfig"; sourceTree = "<group>"; };
+		C17A5752253654E9000121AD /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		C17A57562537AB85000121AD /* Extention + Aimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + Aimation.swift"; sourceTree = "<group>"; };
+		C17A57582537ABA6000121AD /* Extention + ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + ViewController.swift"; sourceTree = "<group>"; };
 		C1CC09512535E0AB0014DA27 /* C2 HomeWork 9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C2 HomeWork 9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CC09542535E0AB0014DA27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1CC09562535E0AB0014DA27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		C1CC095B2535E0AD0014DA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CC095E2535E0AD0014DA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1CC09602535E0AD0014DA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5F03C49069BFFE2C74E6F7 /* Pods_C2_HomeWork_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_C2_HomeWork_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FA5D7608D2F72115E0D973 /* Pods_C2_HomeWork_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71FA65E01E3B05C920EC7D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5102D1262BEF8AA481A6F6B8 /* Pods-C2 HomeWork 9.debug.xcconfig */,
+				2B08B2259F6BCDFED16AD1F9 /* Pods-C2 HomeWork 9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C17A574D25365441000121AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C17A5752253654E9000121AD /* Animation.swift */,
+				C17A57562537AB85000121AD /* Extention + Aimation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17A574E2536544A000121AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC09582535E0AB0014DA27 /* Main.storyboard */,
+				C1CC095D2535E0AD0014DA27 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17A574F25365452000121AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC09562535E0AB0014DA27 /* ViewController.swift */,
+				C17A57582537ABA6000121AD /* Extention + ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17A57502536545A000121AD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC095B2535E0AD0014DA27 /* Assets.xcassets */,
+				C1CC09602535E0AD0014DA27 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C17A575125365470000121AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC09542535E0AB0014DA27 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		C1CC09482535E0AB0014DA27 = {
 			isa = PBXGroup;
 			children = (
 				C1CC09532535E0AB0014DA27 /* C2 HomeWork 9 */,
 				C1CC09522535E0AB0014DA27 /* Products */,
+				71FA65E01E3B05C920EC7D40 /* Pods */,
+				DC317F29204F3CD6ED142E97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,21 @@
 		C1CC09532535E0AB0014DA27 /* C2 HomeWork 9 */ = {
 			isa = PBXGroup;
 			children = (
-				C1CC09542535E0AB0014DA27 /* AppDelegate.swift */,
-				C1CC09562535E0AB0014DA27 /* ViewController.swift */,
-				C1CC09582535E0AB0014DA27 /* Main.storyboard */,
-				C1CC095B2535E0AD0014DA27 /* Assets.xcassets */,
-				C1CC095D2535E0AD0014DA27 /* LaunchScreen.storyboard */,
-				C1CC09602535E0AD0014DA27 /* Info.plist */,
+				C17A574D25365441000121AD /* Model */,
+				C17A574E2536544A000121AD /* View */,
+				C17A574F25365452000121AD /* Controller */,
+				C17A57502536545A000121AD /* Supporting files */,
+				C17A575125365470000121AD /* App */,
 			);
 			path = "C2 HomeWork 9";
+			sourceTree = "<group>";
+		};
+		DC317F29204F3CD6ED142E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F03C49069BFFE2C74E6F7 /* Pods_C2_HomeWork_9.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1CC09632535E0AD0014DA27 /* Build configuration list for PBXNativeTarget "C2 HomeWork 9" */;
 			buildPhases = (
+				C64AB3750E0C8D2BF10838AB /* [CP] Check Pods Manifest.lock */,
 				C1CC094D2535E0AB0014DA27 /* Sources */,
 				C1CC094E2535E0AB0014DA27 /* Frameworks */,
 				C1CC094F2535E0AB0014DA27 /* Resources */,
+				D0202BF0FDC9A046588E5784 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +205,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C64AB3750E0C8D2BF10838AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-C2 HomeWork 9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0202BF0FDC9A046588E5784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-C2 HomeWork 9/Pods-C2 HomeWork 9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-C2 HomeWork 9/Pods-C2 HomeWork 9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-C2 HomeWork 9/Pods-C2 HomeWork 9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1CC094D2535E0AB0014DA27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17A57572537AB85000121AD /* Extention + Aimation.swift in Sources */,
 				C1CC09572535E0AB0014DA27 /* ViewController.swift in Sources */,
+				C17A5753253654E9000121AD /* Animation.swift in Sources */,
 				C1CC09552535E0AB0014DA27 /* AppDelegate.swift in Sources */,
+				C17A57592537ABA6000121AD /* Extention + ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +400,12 @@
 		};
 		C1CC09642535E0AD0014DA27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5102D1262BEF8AA481A6F6B8 /* Pods-C2 HomeWork 9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AY3LQ3Z88;
-				INFOPLIST_FILE = "C2 HomeWork 9/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/C2 HomeWork 9/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +419,12 @@
 		};
 		C1CC09652535E0AD0014DA27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B08B2259F6BCDFED16AD1F9 /* Pods-C2 HomeWork 9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AY3LQ3Z88;
-				INFOPLIST_FILE = "C2 HomeWork 9/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/C2 HomeWork 9/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
